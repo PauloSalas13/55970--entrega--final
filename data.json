@@ -1,0 +1,7 @@
+{
+    "1": { "nombre": "PERLAS DE MAR", "precio": 25000 },
+    "2": { "nombre": "CROSTINIS DE JAMÓN IBÉRICO", "precio": 26000 },
+    "3": { "nombre": "BRAVAS DE LUJO", "precio": 30000 },
+    "4": { "nombre": "ENSALADA DE PULPO A LA GALLEGA", "precio": 40000 },
+    "5": { "nombre": "CARPACCIO DE ATÚN ROJO", "precio": 20000 }
+}

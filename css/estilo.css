@@ -1,0 +1,124 @@
+/*Se me ocurrio darle un tamaño y centrar al body*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.formulario {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.seleccion,
+.acciones {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select,
+button {
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/*agrege esta ventana para mostrar el resumen del pedido me encanto esta opcion*/
+.resumen {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 250px;
+    text-align: left; /* Alinea el texto a la izquierda */
+    z-index: 999; /* Asegura que esté por encima de otros elementos */
+}
+
+.resumen h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#resumenPedido {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#resumenPedido li {
+    margin-bottom: 10px;
+}
+
+.popupG {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.popup-contentG {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
